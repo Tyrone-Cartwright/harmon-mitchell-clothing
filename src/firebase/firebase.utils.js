@@ -20,7 +20,7 @@ const config = {
 
     const snapShot = await userRef.get()
 
-    console.log(snapShot)
+    // console.log(snapShot)
 
     if (!snapShot.exists) {
       const { displayName, email } = userAuth
