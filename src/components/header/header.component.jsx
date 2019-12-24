@@ -30,8 +30,8 @@ const Header = ({ currentUser, hidden }) => (
       }
       <CartIcon />
     </div>
-    {hidden ? null : <CartDropdown />}
-  </div>
+      {hidden ? null :  <CartDropdown />}
+    </div>
 )
 
 const mapStateToProps = ({user: { currentUser}, cart: { hidden}}) => ({
